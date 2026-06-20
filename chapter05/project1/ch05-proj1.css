@@ -75,3 +75,33 @@ legend {
    padding: 0.5rem 1rem;
 }
 
+legend {
+   background-color: #607D8B;
+   color: white;
+   padding: 0.75rem 2rem;
+   font-size: 1.1rem;
+}
+
+form p {
+   margin-bottom: 1rem;
+}
+
+form label {
+   font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+   display: block;
+   margin-top: 0.25rem;
+   padding: 0.4rem;
+}
+
+input[type="submit"] {
+   background-color: #673AB7;
+   color: white;
+   border: none;
+   padding: 0.75rem 1.5rem;
+   margin-top: 0.75rem;
+}
