@@ -38,6 +38,40 @@ section h3 {
 
 
 /* table formatting -- you will add these */
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
 
+caption {
+   text-align: left;
+   font-weight: bold;
+   padding: 0.75rem;
+}
 
+th {
+   text-align: left;
+   background-color: #607D8B;
+   color: white;
+   padding: 0.75rem;
+}
+
+td {
+   padding: 0.75rem;
+   border-bottom: solid 1px #CFD8DC;
+}
+
+tr:nth-child(even) {
+   background-color: #ECEFF1;
+}
+
+progress {
+   width: 100%;
+}
+
+legend {
+   background-color: #607D8B;
+   color: white;
+   padding: 0.5rem 1rem;
+}
 
