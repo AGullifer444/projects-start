@@ -1,6 +1,21 @@
+let tax_rate = 0.10;
+let shipping_threshold = 1000;
 
-const tax_rate = prompt('Enter tax rate (0.10)');
-const shipping_threshold = prompt('Enter shipping threshold (1000)');
+try {
+   const tax_rate_input = prompt('Enter tax rate (0.10)');
+   if (tax_rate_input !== null && tax_rate_input !== '') {
+      tax_rate = Number(tax_rate_input);
+   }
+} catch (error) {
+}
+
+try {
+   const shipping_threshold_input = prompt('Enter shipping threshold (1000)');
+   if (shipping_threshold_input !== null && shipping_threshold_input !== '') {
+      shipping_threshold = Number(shipping_threshold_input);
+   }
+} catch (error) {
+}
 
 let subtotal = 0;
 
